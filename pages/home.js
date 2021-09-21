@@ -14,9 +14,12 @@ module.exports = {
   url: 'https://www.phptravels.net/',
   commands: [homeCommands],
   elements: {
-    myAccountDropdown: {selector: 'div.dropdown-login > a'},
+    myAccountDropdown: {
+      selector: '//a[@class="down-button waves-effect"]',
+      locateStrategy: 'xpath',
+      index: 0},
     signUpLink: {
-      selector: '//a[text()="Sign Up"]',
+      selector: '//a[@href="https://www.phptravels.net/signup"]',  //a[text()="SignUp"]
       locateStrategy: 'xpath',
       index: 0
     }

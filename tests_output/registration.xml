@@ -3,8 +3,8 @@
             failures="0"
             tests="0">
 
-  <testsuite name="index"
-    errors="1" failures="0" hostname="" id="" package="index" skipped="2"
+  <testsuite name="registration"
+    errors="1" failures="0" hostname="" id="" package="registration" skipped="0"
     tests="0" time="0.000" timestamp="">
   
 
@@ -33,18 +33,6 @@
     at processTicksAndRejections (internal/process/task_queues.js:82:21)
       ]]></error>  
 
-  
-    
-    <testcase
-      name="Validate Screen" classname="index">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="Validate Sign Up Screen" classname="index">
-      <skipped />
-    </testcase>
-    
   
   </testsuite>
 </testsuites>
