@@ -6,11 +6,8 @@ const homeCommands = {
 
     return this; // Return page object for chaining
   }
-  // setValueForm(name, lastname, phone, email, pass){
-  //   this.firstNameInput
-  // }
 };
- //.setValue('input[type=search]', 'nightwatch')
+
 module.exports = {
   commands: [homeCommands],
   elements: { 
