@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="EmptyFields"
+    errors="0" failures="0" hostname="" id="" package="EmptyFields" skipped="0"
+    tests="1" time="7.695" timestamp="">
+  
+    <testcase name="Empty Fields" classname="EmptyFields" time="7.695" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: Cannot read property &#39;filename_prefix&#39; of undefined
+       at Object.write (C:\Users\rpera\Desktop\Upshow Test\UPshow-QA-Evaluation\UPshow-Test\tests\html-reporter.js:8:34)
+       at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -9,12 +9,16 @@
   "dependencies": {
     "chai": "~4.2.0",
     "mocha": "~6.2.2",
-    "nightwatch": "^1.4.3"
+    "nightwatch": "^1.4.3",
+    "nightwatch-html-reporter": "^0.3.1"
   },
   "author": "UPshow INC",
   "devDependencies": {
     "chromedriver": "^87.0.7",
+    "fs": "0.0.1-security",
     "geckodriver": "^1.20.0",
+    "handlebars": "^4.7.7",
+    "path": "^0.12.7",
     "selenium-server": "^3.141.59"
   }
 }
